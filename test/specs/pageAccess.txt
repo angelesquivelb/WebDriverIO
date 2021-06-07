@@ -1,0 +1,8 @@
+const LoginPage = require ('../pageobjects/login');
+
+describe ('Acceso a Anaquel Virtual', () => {
+    it('Logueo en Anaquel Virtual', async () => {
+        await LoginPage.open();
+        await LoginPage.login('Test', '123456');
+    })
+})
