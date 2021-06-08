@@ -14,9 +14,6 @@ class LoginPage {
         await (await this.btnSubmit).click();
 
     }
-    open() {
-        return super.open('login');
-    }
 }
 
 module.exports = new LoginPage();
